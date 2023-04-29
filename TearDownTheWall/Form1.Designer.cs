@@ -89,12 +89,11 @@
             this.sizeToolStripMenuItem.Name = "sizeToolStripMenuItem";
             this.sizeToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.sizeToolStripMenuItem.Text = "Size";
-            this.sizeToolStripMenuItem.Visible = false;
             // 
             // tsMenuStripFullscreen
             // 
             this.tsMenuStripFullscreen.Name = "tsMenuStripFullscreen";
-            this.tsMenuStripFullscreen.Size = new System.Drawing.Size(161, 22);
+            this.tsMenuStripFullscreen.Size = new System.Drawing.Size(180, 22);
             this.tsMenuStripFullscreen.Text = "Fullscreen";
             this.tsMenuStripFullscreen.Click += new System.EventHandler(this.tsMenuStripFullscreen_Click);
             // 
@@ -106,42 +105,42 @@
             this.tsMenuItem1280x720,
             this.tsMenuItem1920x1080});
             this.tsMenuStripSizeableWindow.Name = "tsMenuStripSizeableWindow";
-            this.tsMenuStripSizeableWindow.Size = new System.Drawing.Size(161, 22);
+            this.tsMenuStripSizeableWindow.Size = new System.Drawing.Size(180, 22);
             this.tsMenuStripSizeableWindow.Text = "Sizeable window";
             // 
             // tsMenuItem720x480
             // 
             this.tsMenuItem720x480.Name = "tsMenuItem720x480";
-            this.tsMenuItem720x480.Size = new System.Drawing.Size(128, 22);
+            this.tsMenuItem720x480.Size = new System.Drawing.Size(180, 22);
             this.tsMenuItem720x480.Text = "720x480";
             this.tsMenuItem720x480.Click += new System.EventHandler(this.tsMenuStripSizeableWindow_Click);
             // 
             // tsMenuItem720x576
             // 
             this.tsMenuItem720x576.Name = "tsMenuItem720x576";
-            this.tsMenuItem720x576.Size = new System.Drawing.Size(128, 22);
+            this.tsMenuItem720x576.Size = new System.Drawing.Size(180, 22);
             this.tsMenuItem720x576.Text = "720x576";
             this.tsMenuItem720x576.Click += new System.EventHandler(this.tsMenuStripSizeableWindow_Click);
             // 
             // tsMenuItem1280x720
             // 
             this.tsMenuItem1280x720.Name = "tsMenuItem1280x720";
-            this.tsMenuItem1280x720.Size = new System.Drawing.Size(128, 22);
+            this.tsMenuItem1280x720.Size = new System.Drawing.Size(180, 22);
             this.tsMenuItem1280x720.Text = "1280x720";
             this.tsMenuItem1280x720.Click += new System.EventHandler(this.tsMenuStripSizeableWindow_Click);
             // 
             // tsMenuItem1920x1080
             // 
             this.tsMenuItem1920x1080.Name = "tsMenuItem1920x1080";
-            this.tsMenuItem1920x1080.Size = new System.Drawing.Size(128, 22);
+            this.tsMenuItem1920x1080.Size = new System.Drawing.Size(180, 22);
             this.tsMenuItem1920x1080.Text = "1920x1080";
             this.tsMenuItem1920x1080.Click += new System.EventHandler(this.tsMenuStripSizeableWindow_Click);
             // 
             // pbCanvas
             // 
-            this.pbCanvas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pbCanvas.BackColor = System.Drawing.SystemColors.Control;
             this.pbCanvas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbCanvas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbCanvas.Location = new System.Drawing.Point(12, 37);
             this.pbCanvas.MaximumSize = new System.Drawing.Size(2000, 2000);
             this.pbCanvas.Name = "pbCanvas";
@@ -184,7 +183,6 @@
             this.Text = "TearDownTheWall";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbCanvas)).EndInit();

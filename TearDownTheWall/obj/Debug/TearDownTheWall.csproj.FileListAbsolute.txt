@@ -1,6 +1,7 @@
 D:\TearDownTheWall\TearDownTheWall\TearDownTheWall\bin\Debug\TearDownTheWall.exe.config
 D:\TearDownTheWall\TearDownTheWall\TearDownTheWall\bin\Debug\TearDownTheWall.exe
 D:\TearDownTheWall\TearDownTheWall\TearDownTheWall\bin\Debug\TearDownTheWall.pdb
+D:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.csprojAssemblyReference.cache
 D:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.Form1.resources
 D:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.Properties.Resources.resources
 D:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.csproj.GenerateResource.cache
@@ -18,5 +19,3 @@ F:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.csp
 F:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.csproj.CoreCompileInputs.cache
 F:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.exe
 F:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.pdb
-D:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.csproj.AssemblyReference.cache
-D:\TearDownTheWall\TearDownTheWall\TearDownTheWall\obj\Debug\TearDownTheWall.csproj.SuggestedBindingRedirects.cache
